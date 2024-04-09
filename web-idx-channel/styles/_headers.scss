@@ -1,0 +1,175 @@
+// # SAME CODE #
+@mixin sameCode() {
+  span {
+    font-weight: 700;
+  }
+
+  p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2px;
+  }
+}
+
+/* === HEADERS === */
+.headers {
+  background-color: $primary-color;
+  background-image: url(../img/background-1.png);
+  background-size: cover;
+}
+
+.container-nav {
+  background: $nav-gradient-color;
+  padding: 0 32px;
+  @include flex();
+  justify-content: space-between;
+  align-items: center;
+  height: 121px;
+
+  .logo {
+    width: 173px;
+  }
+}
+
+.main-nav {
+  display: flex;
+  gap: 32px;
+
+  a {
+    @include flex();
+    align-items: center;
+    height: 60px;
+    text-decoration: none;
+    font-size: 20px;
+    color: $text-color;
+    font-weight: 300;
+  }
+
+  .active-nav {
+    border-bottom: 2px solid $button-color;
+    font-weight: 700;
+  }
+}
+
+.get-ticket a {
+  text-decoration: none;
+  background: transparent;
+  cursor: pointer;
+
+  img {
+    width: 133px;
+  }
+}
+
+/* === HEADER === */
+header {
+  margin-top: 92px;
+  background-size: cover;
+  @include flex();
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 711px;
+  padding: 0 32px;
+  color: $text-color;
+  position: relative;
+}
+
+.wrap-header {
+  margin-top: 75px;
+  width: 500px;
+}
+
+.wa-side {
+  width: 60px;
+  height: 60px;
+  border: none;
+  background: none;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: $text-color;
+  @include flex();
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  right: 0;
+  bottom: 50px;
+
+  img {
+    width: 40px;
+  }
+}
+
+.desc-container {
+  h1 {
+    font-size: 64px;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+
+  .sub-head {
+    margin-top: 4px;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+
+.wrap-text-p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.2px;
+
+  p {
+    &:first-child {
+      margin-top: 16px;
+    }
+
+    &:last-child {
+      margin-top: 30px;
+    }
+  }
+}
+
+.jadwal-container {
+  margin-top: 48px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.left {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+
+  .lokasi-icon {
+    color: #bd3934;
+    font-size: 25px;
+  }
+
+  .lokasi {
+    margin-top: 3px;
+    width: 252px;
+  }
+
+  @include sameCode();
+}
+
+.right {
+  @include flex();
+  align-items: flex-start;
+  gap: 16px;
+
+  .tanggal-icon {
+    color: #bd3934;
+    font-size: 25px;
+  }
+
+  .tanggal {
+    margin-top: 3px;
+  }
+
+  @include sameCode();
+}

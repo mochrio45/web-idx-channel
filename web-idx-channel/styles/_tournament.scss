@@ -1,0 +1,73 @@
+/* === TOURNAMENT FORMAT ==== */
+.top-content {
+  padding: 0 16px;
+  background-color: $primary-color;
+  color: $text-color;
+  height: 711px;
+}
+
+.container-tournament-format {
+  padding-top: 133px;
+}
+
+.top-side {
+  .second-heading {
+    font-size: 32px;
+    font-weight: 800;
+    color: $bg-txt-color;
+    text-align: center;
+  }
+
+  .text-p {
+    margin-top: 12px;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+.bottom-side {
+  @include flex();
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 40px;
+}
+
+.container-img img {
+  width: 395px;
+}
+
+.container-text {
+  margin-top: 10px;
+
+  p {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  ul > li {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+}
+
+.tournament-format-icon {
+  @include flex();
+  justify-content: space-between;
+  align-items: center;
+  height: 122px;
+  background-color: $bg-txt-color;
+  color: $primary-color;
+  padding: 0 32px;
+
+  .icons {
+    @include flex();
+    justify-content: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+}
+
+.icons img {
+  width: 48px;
+}

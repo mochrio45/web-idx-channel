@@ -1,0 +1,795 @@
+@media screen and (max-width: 1024px) {
+  //  === HEADERS ===
+  .container-nav {
+    height: 105px;
+  }
+
+  header {
+    // height: fit-content;
+    height: 550px;
+  }
+
+  .container-nav {
+    .logo {
+      width: 140px;
+    }
+
+    .main-nav {
+      a {
+        font-size: 16px;
+      }
+    }
+
+    .get-ticket {
+      a {
+        img {
+          width: 100px;
+        }
+      }
+    }
+  }
+
+  .wrap-header {
+    .desc-container {
+      .first-heading {
+        font-size: 47px;
+      }
+
+      .sub-head {
+        font-size: 26px;
+      }
+
+      .wrap-text-p {
+        font-size: 16px;
+      }
+    }
+
+    .jadwal-container {
+      .left {
+        .lokasi-icon {
+          font-size: 20px;
+        }
+
+        span,
+        p {
+          font-size: 16px;
+        }
+      }
+
+      .right {
+        .tanggal-icon {
+          font-size: 20px;
+        }
+
+        span,
+        p {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  // === TOURNAMENT FORMAT ===
+  .container-tournament-format {
+    padding-top: 123px;
+  }
+
+  .top-content {
+    height: 550px;
+  }
+
+  .top-side {
+    .second-heading {
+      font-size: 30px;
+    }
+
+    .text-p {
+      font-size: 18px;
+    }
+  }
+
+  .bottom-side {
+    .flight-a,
+    .flight-b,
+    .women-cat {
+      .container-img {
+        img {
+          width: 295px;
+        }
+      }
+
+      .container-text {
+        p,
+        ul > li {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  .tournament-format-icon {
+    height: 105px;
+    .icons {
+      img {
+        width: 44px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+
+  // === TOURNAMENT FORMAT ===
+  .grand-prize {
+    .second-heading {
+      padding-top: 123px;
+      font-size: 30px;
+    }
+    height: max-content;
+  }
+
+  .wrap-box-top {
+    .box {
+      font-size: 18px;
+    }
+  }
+
+  .hole-in-one {
+    span {
+      font-size: 44px;
+    }
+  }
+
+  .wrap-box-bottom {
+    .box {
+      span {
+        font-size: 22px;
+      }
+    }
+    padding-bottom: 24px;
+  }
+
+  // === PREV TOURNAMENT ===
+  .prev-tournament {
+    .second-heading {
+      padding-top: 123px;
+      font-size: 30px;
+    }
+    height: max-content;
+  }
+
+  .container-content {
+    .tabs-media {
+      .tab-media {
+        font-size: 18px;
+      }
+    }
+    .tabs-content {
+      height: 350px;
+    }
+  }
+
+  .imgs-content {
+    .imgs-list {
+      img {
+        width: 295px;
+      }
+    }
+  }
+
+  .video-content {
+    .video {
+      width: 544px;
+      height: 300px;
+    }
+  }
+
+  // === TICKET ===
+  .ticket {
+    height: 655px;
+  }
+  .top-wrap {
+    padding-top: 123px;
+    .sub-head {
+      font-size: 30px;
+    }
+
+    .text-p {
+      font-size: 18px;
+    }
+
+    .get-btn {
+      margin-top: 110px;
+      font-size: 22px;
+      width: 325px;
+      height: 80px;
+    }
+  }
+
+  .more-info {
+    margin-top: 113px;
+
+    .third-head {
+      font-size: 22px;
+    }
+  }
+
+  // === FOOTER ===
+  .sponsor {
+    .third-head {
+      font-size: 30px;
+    }
+    .container-box {
+      .box {
+        width: 114px;
+        height: 110px;
+      }
+    }
+  }
+
+  .copyright {
+    .text-paragraph {
+      font-size: 12px;
+    }
+
+    .social-media {
+      .logo-social-media {
+        font-size: 25px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  // === HEADERS ===
+  .container-nav {
+    height: 90px;
+    padding: 0 14px;
+    .logo {
+      width: 110px;
+    }
+
+    .main-nav {
+      gap: 20px;
+      a {
+        font-size: 12.5px;
+      }
+    }
+
+    .get-ticket {
+      a {
+        img {
+          width: 90px;
+        }
+      }
+    }
+  }
+
+  header {
+    height: 500px;
+  }
+
+  .wrap-header {
+    width: 458px;
+    .desc-container {
+      .first-heading {
+        font-size: 38px;
+      }
+
+      .sub-head {
+        font-size: 21px;
+      }
+
+      .wrap-text-p {
+        font-size: 14px;
+      }
+    }
+
+    .jadwal-container {
+      .left {
+        gap: 10px;
+
+        .lokasi {
+          width: 256px;
+        }
+
+        .lokasi-icon {
+          font-size: 20px;
+        }
+
+        span,
+        p {
+          font-size: 14px;
+        }
+      }
+
+      .right {
+        gap: 10px;
+
+        .tanggal-icon {
+          font-size: 20px;
+        }
+
+        span,
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  .wa-side {
+    width: 50px;
+    height: 50px;
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px;
+  }
+
+  // === TOURNAMENT FORMAT ===
+  .container-tournament-format {
+    padding-top: 110px;
+  }
+
+  .top-content {
+    height: 500px;
+  }
+
+  .top-side {
+    .second-heading {
+      font-size: 26px;
+    }
+    .text-p {
+      font-size: 14px;
+    }
+  }
+
+  .bottom-side {
+    .flight-a,
+    .flight-b,
+    .women-cat {
+      .container-img {
+        img {
+          width: 230px;
+        }
+      }
+
+      .container-text {
+        p,
+        ul > li {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  .tournament-format-icon {
+    height: 90px;
+    .icons {
+      img {
+        width: 35px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+
+  // === GRAND PRIZE ===
+  .grand-prize {
+    .second-heading {
+      padding-top: 110px;
+      font-size: 26px;
+    }
+  }
+
+  .wrap-box-top .box {
+    span {
+      font-size: 14px;
+    }
+  }
+
+  .hole-in-one {
+    span {
+      font-size: 34px;
+    }
+  }
+
+  .wrap-box-bottom .box {
+    span {
+      font-size: 20px;
+    }
+  }
+
+  // === PREVIOUS TOURNAMENT ===
+  .prev-tournament {
+    .second-heading {
+      padding-top: 110px;
+      font-size: 26px;
+    }
+  }
+
+  .container-content {
+    .tabs-media {
+      .tab-media {
+        font-size: 14px;
+      }
+    }
+
+    .tabs-content {
+      height: 271px;
+    }
+  }
+
+  .imgs-content .imgs-list img {
+    width: 223px;
+  }
+
+  // === TICKET ===
+  .top-wrap {
+    padding-top: 110px;
+
+    .sub-heading {
+      font-size: 26px;
+    }
+
+    .text-p {
+      font-size: 14px;
+    }
+
+    .get-btn {
+      font-size: 18px;
+      width: 259px;
+      height: 68px;
+    }
+  }
+
+  .more-info {
+    .third-head {
+      font-size: 18px;
+    }
+    .wrap-email-wa {
+      .email,
+      .whatsapp {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .dot-slide-page {
+    .dot-slide {
+      width: 5px;
+      height: 5px;
+    }
+
+    .active-dot {
+      width: 9px;
+      height: 9px;
+    }
+  }
+
+  // === FOOTER ===
+  .sponsor {
+    .third-head {
+      font-size: 26px;
+    }
+
+    .container-box {
+      .box {
+        width: 75px;
+        height: 70px;
+      }
+    }
+  }
+
+  .copyright {
+    .text-paragraph {
+      font-size: 10.5px;
+    }
+    .social-media {
+      .logo-social-media {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  // === HEADERS ===
+  .container-nav {
+    height: 70px;
+    .logo {
+      width: 50px;
+    }
+
+    .main-nav {
+      gap: 15px;
+      a {
+        height: 30px;
+        font-size: 8px;
+      }
+    }
+
+    .get-ticket {
+      a {
+        img {
+          width: 40px;
+        }
+      }
+    }
+  }
+
+  header {
+    margin-top: 42px;
+  }
+
+  .wrap-header {
+    .desc-container {
+      .first-heading {
+        font-size: 28px;
+      }
+
+      .sub-head {
+        font-size: 16px;
+      }
+
+      .wrap-text-p {
+        font-size: 13px;
+      }
+    }
+
+    .jadwal-container {
+      .left {
+        .lokasi-icon {
+          font-size: 15px;
+        }
+        .lokasi {
+          width: 200px;
+          span,
+          p {
+            font-size: 13px;
+          }
+        }
+      }
+
+      .right {
+        .tanggal-icon {
+          font-size: 15px;
+        }
+        .tanggal {
+          span,
+          p {
+            font-size: 13px;
+          }
+        }
+      }
+    }
+  }
+
+  // === TOURNAMENT FORMAT ===
+
+  .top-content {
+    height: max-content;
+  }
+
+  .container-tournament-format {
+    padding-top: 90px;
+    .top-side {
+      .second-heading {
+        font-size: 20px;
+      }
+
+      .text-p {
+        font-size: 10px;
+      }
+    }
+
+    .bottom-side {
+      padding-bottom: 40px;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+
+      .flight-a,
+      .flight-b,
+      .women-cat {
+        display: flex;
+        gap: 10px;
+
+        .container-img {
+          img {
+            width: 150px;
+          }
+        }
+
+        .container-text {
+          p,
+          ul > li {
+            font-size: 10px;
+          }
+        }
+
+        .container-text {
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  .tournament-format-icon {
+    height: 70px;
+    padding: 0 14px;
+
+    .icons {
+      img {
+        width: 30px;
+      }
+
+      p {
+        font-size: 10px;
+      }
+    }
+  }
+
+  // === GRAND PRIZE ===
+  .grand-prize {
+    .second-heading {
+      padding-top: 70px;
+      font-size: 20px;
+    }
+
+    .wrap-box-top {
+      .box {
+        padding: 5px 10px;
+        span {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+
+  .hole-in-one {
+    img {
+      width: 35px;
+    }
+
+    span {
+      font-size: 24px;
+    }
+  }
+
+  .wrap-box-bottom {
+    .box {
+      span {
+        padding: 5px 10px;
+        font-size: 16px;
+      }
+    }
+  }
+
+  // === PREVIOUS TOURNAMENT ===
+  .prev-tournament {
+    .second-heading {
+      padding-top: 70px;
+      font-size: 20px;
+    }
+  }
+
+  .container-content {
+    .tabs-media {
+      .tab-media {
+        font-size: 10px;
+      }
+    }
+
+    .tabs-content {
+      height: 253px;
+    }
+  }
+
+  .imgs-content {
+    .imgs-list {
+      img {
+        width: 204px;
+      }
+    }
+  }
+
+  .video-content {
+    .video {
+      width: 300px;
+      height: 200px;
+    }
+  }
+
+  // === TICKET ===
+
+  .ticket {
+    padding: 0 14px;
+    height: max-content;
+  }
+
+  .top-wrap {
+    .sub-heading {
+      font-size: 20px;
+    }
+
+    .text-p {
+      font-size: 10px;
+      line-height: 1.5;
+    }
+
+    .get-btn {
+      font-size: 12px;
+      width: 205px;
+      height: 53px;
+    }
+  }
+
+  .more-info {
+    .third-head {
+      font-size: 12px;
+    }
+
+    .wrap-email-wa {
+      gap: 100px;
+      .email {
+        span {
+          font-size: 10px;
+        }
+      }
+
+      .whatsapp {
+        span {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+
+  .dot-slide-page {
+    .dot-slide {
+      width: 3px;
+      height: 3px;
+    }
+
+    .active-dot {
+      width: 5px;
+      height: 5px;
+    }
+  }
+
+  // === FOOTER ===
+  footer {
+    height: 300px;
+    padding: 0 14px;
+  }
+
+  .sponsor {
+    .third-head {
+      font-size: 20px;
+    }
+
+    .container-box {
+      margin-top: 50px;
+      .box {
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+
+  .copyright {
+    .text-paragraph {
+      font-size: 8px;
+    }
+
+    .social-media {
+      gap: 20px;
+      .logo-social-media {
+        font-size: 15px;
+      }
+    }
+  }
+}

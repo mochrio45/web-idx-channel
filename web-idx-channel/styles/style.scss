@@ -1,0 +1,38 @@
+// === COLOR ===
+$primary-color: #040037;
+$nav-gradient-color: linear-gradient(
+  0deg,
+  rgba(0, 0, 0, 0) 1.09%,
+  #040037 100%
+);
+$button-color: #bd3934;
+$text-color: #fff;
+$bg-image-color: #fafafa;
+$bg-footer-color: #fcf6ee;
+$bg-prev-color: #e9e3fd;
+$bg-txt-color: #d9d9d9;
+$btn-prev-for-color: #c4c4c4;
+$text-gold-color: #d29319;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Archivo", sans-serif;
+}
+
+@mixin flex {
+  display: flex;
+  justify-content: center;
+}
+
+@import "./headers";
+@import "./tournament";
+@import "./grand-prize";
+@import "./prev-tournament";
+@import "./ticket";
+@import "./footer";
+@import "./media-query";
